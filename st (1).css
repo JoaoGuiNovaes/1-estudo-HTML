@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+main{
+    background-color: #ffffff;
+    height: 590px;
+}
+
+footer{
+    background-color: #f7efd8
+    ;
+}
+.head{
+    background-color: #f7efd8;
+    display: block;
+}
+.head h1{
+    text-align: center;
+    border-bottom: 10vh;
+}
+
+.head h3{
+    text-align: center;
+    border-bottom: 10vh;
+}
+
+.main2{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 100px;
+}
