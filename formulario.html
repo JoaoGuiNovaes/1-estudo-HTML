@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Questionário</legend>
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <label for="campoEmail">E-mail: </label>
+                    <input type="email"; name="campoEmail">
+                    <br> <br>
+                    <label for="campoSenha">Senha: </label>
+                    <input type="password"; name="campoSenha">
+                </fieldset>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="campoNome">Nome:</label>
+                    <input type="text"; name="campoNome">
+                    <br> <br>
+                    <label for="campoIdade">Idade: </label>
+                    <input type="number"; name="campoIdade;">
+                    <br> <br>
+                    <label for="campoNumero">Número: </label>
+                    <input type="number" name="campoNumero">
+                    <br><br>
+                    <label for="campoData">Data de nascimento: </label>
+                    <input type="date"; name="campoData">
+                    <br> <br>
+
+                    <label for="campoGenero">Gênero: </label>
+                    <input type="radio"; name="campoGenero"; value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio"; name="campoGenero"; value="feminino">
+                    <label for="feminino">Feminino</label>
+                </fieldset>
+                <fieldset>
+                
+                    <legend>Preferências:</legend>
+                    <label for="campoMarca">Marca de celular que você usa: </label>
+                    <select name="marca">
+            <option value="Samsung">Samsung</option>
+            <option value="Apple">Apple</option>
+            <option value="Motorrola">Motorrola</option>
+            <option value="Xiaomi">Xiaomi</option>
+                    </select>
+                    <br><br>
+                    <label for="navegador">Escolha um navegador que vocẽ usa: </label>
+                    <input type="text"; name="navegador"; id="navegador"; list="navegadores">
+                    <datalist id="navegadores">
+                        <option value="Chrome"></option>
+                        <option value="Mozzila"></option>
+                        <option value="OperaGX"></option>
+                        <option value="Edge"></option>
+                    </datalist>
+                    <br><br>
+                    <label for="musica">Escolha os ritmos de musica que você gosta: </label>
+                    <input type="checkbox"; name="musica" value="rock">
+                    <label for="rock">Rock</label>
+                    <input type="checkbox"; name="musica" value="POP">
+                    <label for="pop">pop</label>
+                    <input type="checkbox"; name="musica" value="Rap">
+                    <label for="Rap">Rap</label>
+                    <input type="checkbox"; name="musica" value="Sertanejo">
+                    <label for="Sertanejo">Sertanejo</label>
+                    <input type="checkbox"; name="musica" value="Heggae">
+                    <label for="Heggae">Heggae</label>
+                </fieldset>
+        <fieldset>
+            <legend>Comentário: </legend>
+            <textarea name="descricao" cols="50" placeholder="Digite o comentário..." rows="4"></textarea>
+    </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">reset</button>
+        </fieldset >
+    </form>
+</body>
+</html>
